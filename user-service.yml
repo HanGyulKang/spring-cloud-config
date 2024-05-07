@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/msa?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: gang6607
+    password: '{cipher}7a05ad198f2c8e6989f23b856093a0fd4f5f04300b8e34d811285748ee7e53fa'
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      connection-init-sql: SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci
+
+token:
+  expiration_time: 3600000
+  secret: 2cadded2582bbb92b7b6f9e56b66626481135cd1bfb20540a9afcdd7decde3881a611d1b8b7d0c883c1354b83a734b846cd1e2bafafcdb65b25d112708939747_changed_#1
+
+gateway:
+  ip: 192.168.35.8
