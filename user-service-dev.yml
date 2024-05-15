@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/msa?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
     username: gang6607
-    password: '{cipher}7a05ad198f2c8e6989f23b856093a0fd4f5f04300b8e34d811285748ee7e53fa'
+    password: '{cipher}AQB8SfO/xz4pbXYtP/DRTNm7ClxV3iY0Tm1PaUmIQMvLiNBtGjDWmxM6nWpSrgFtEt7Ihv8wxIzP6BUf6A6v8+RkMhsVx9HfkpyDMXUtYc5nd5VbdH8WypfWOX3eyPxZByK2+7NM4Q85n6Hj3d6lubgTKLEq8i9xIC1ZAh0c6308K/ZndcAtCyGd6wP+QGozxURvflnIk8XXYrZHj9AvOhBmMBiHel66ibrGJpG6YKWc5876q1svwjTHtYeChRzGlBwe11GUL5LiZPmXHZW9Ji7vRqJZyAgdVdoOor427AdS2mChAlbnaToyhuyp1LA/LJrzAke+VoDSaytRIFKakSZe3GXaycLtwHDVPHj8LQDTwRakzvDIPOhZdo8+ymHEJ/0='
     driver-class-name: com.mysql.cj.jdbc.Driver
     hikari:
       connection-init-sql: SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci
