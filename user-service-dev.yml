@@ -12,4 +12,10 @@ token:
   secret: '{cipher}AQANbpg0NbMXTt8qLhEPMKX+ORf8YQW6WxIeKW6JrXHKPIAOfUXMHnKoBFUGy2wVHuWluwMWVJnASt0BKzuv9HkdrT7ZmbB9Q57SGX7AKVGPUqm7lHyUwXwq/8nOylp+QtrMw0Qv2kMZdZ4aFYvTJD5pe9R5EYeXdCuqr9721nnzyIlWi+8Md5yRMpfv8QSKTlqMrNcEZ8Kz3rD+dJQBXFGNS5RMhZcOxfxswuHMP738dT827pbwyzkC320B2yx9PpMnPxKpdxz0Qwuo/nnsLIYNdC7ZJQmfox4xWV7NIb14NvS+XYwpHjfN8vYik1SN5RE4C99fY2E9vYAlUymUiT4AUlx5PkkiVZwvPdK5NJNzsHJj0SRLH/2O3Zmq7zQ7U3NT0S3AfZSiVOpDTNsf96Uf5BXWiJzX+nWmapwlJue/UtAB1nntJMuJWJ3l6TIHjf/Z0wYnSG6wDOHl5r0qTLbPbMUBGwx48GZZuektvYNpUfHjoEGMJhn5mgfiRur2df1g6RsA3QyjG07q4XLruXk7nS67G5dmEcZD33W39qxffQ=='
 
 gateway:
-  ip: 192.168.35.8
+  #  ip: 192.168.35.8
+  ip: 127.0.0.1
+  port: 8000
+
+order-service:
+  url: /order-service
+  get-orders: /orders
