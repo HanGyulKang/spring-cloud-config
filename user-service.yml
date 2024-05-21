@@ -17,6 +17,7 @@ gateway:
   port: 8000
 
 order-service:
+  name: ORDER-SERVICE
   url: /order-service
   get-orders: /orders
 
